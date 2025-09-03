@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url = 'https://files.minecraftforge.net/maven' }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+
+apply plugin: 'forge'
+
+version = "1.0"
+group = "com.example"
+archivesBaseName = "ironmanmod"
+
+minecraft {
+    version = "1.12.2-14.23.5.2854"
+    runDir = "run"
+    mappings = "stable_39"
+}
