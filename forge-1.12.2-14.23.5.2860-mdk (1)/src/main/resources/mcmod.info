@@ -1,0 +1,15 @@
+[
+  {
+    "modid": "ironmanmod",
+    "name": "Iron Man Mod",
+    "description": "Gives the player Iron Man armor with HUD and abilities.",
+    "version": "1.0",
+    "authorList": ["YourName"],
+    "credits": "Created by You",
+    "url": "",
+    "updateUrl": "",
+    "screenshots": [],
+    "logoFile": "",
+    "dependencies": []
+  }
+]
